@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Sistem Pendeteksi Telur Ayam</h1>
+        <div class="readsensor">
+            <div class="box">
+                <h3>Telur Hari Ini</h3>
+                <h1 class="readtelur"></h1>
+            </div>
+            <div class="box">
+                <h3>Suhu Kandang</h3>
+                <h1 class="readsuhu">38°C</h1>
+            </div>
+            <div class="box">
+                <h3>Cahaya</h3>
+                <h1 class="readcahaya"></h1>
+            </div>
+        </div>
+        <div class="catatan">
+            <p>Notes</p>
+            <h1 class="kipas">Kipas Mati</h1>
+            <h1 class="lampu">Lampu Mati</h1>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    
+    <!-- FIREBASE PILIHAN -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script src="./scripts/firebase-config.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
